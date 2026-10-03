@@ -1,0 +1,10 @@
+# Obsidian 本地编辑器状态：插件、主题、workspace 布局
+# 这些是每个人自己的，不该进版本库
+.obsidian/
+
+# Claude Code 本地设置（含本机权限白名单）
+.claude/settings.local.json
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
