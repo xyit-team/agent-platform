@@ -8,3 +8,6 @@
 # 系统垃圾
 .DS_Store
 Thumbs.db
+
+node_modules/
+dist/

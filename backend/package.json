@@ -1,0 +1,29 @@
+{
+    "name": "agent-platform-backend",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "src/main.ts",
+    "scripts": {
+        "start": "node src/main.ts",
+        "dev": "tsx watch ./src/main.ts",
+        "format": "oxfmt --write .",
+        "format:check": "oxfmt --check ."
+    },
+    "devDependencies": {
+        "oxfmt": "^0.72.0",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
+    },
+    "devEngines": {
+        "packageManager": {
+            "name": "pnpm",
+            "version": "12.9.1",
+            "onFail": "download"
+        }
+    },
+    "packageManager": "pnpm@12.9.1"
+}
