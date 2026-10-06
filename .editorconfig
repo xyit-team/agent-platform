@@ -1,4 +1,7 @@
-# 单独打开 frontend/ 目录时生效；打开仓库根时由根 .editorconfig 提供同样规则
+# 仓库缩进权威配置：4 空格
+# 编辑器需装 EditorConfig 扩展；oxfmt 直接读取本文件
+root = true
+
 [*]
 charset = utf-8
 end_of_line = lf
